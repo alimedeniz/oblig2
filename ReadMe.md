@@ -2,10 +2,18 @@ OsloMet brukernavn: s354399
 
 GitHub brukernavn: Alimedeniz
 
-GitHub repo URL: https://github.com/DATA1700/oblig-1-alimedeniz.git
+GitHub repo URL:https://github.com/alimedeniz/oblig2.git
 
-URL til Heroku app:https://oblig-1-alimedeniz.herokuapp.com/
+URL til Heroku app:https://oblig-2-alimedeniz.herokuapp.com/
 
 Fullt navn: Alime Deniz Ølcek
 
-Kort beskrivelse av applikasjon (5–10 setninger): En bestillings applikasjon som registrerer navn, etternavn, telefonnummer, epost, og videre skriver ut bilettene. Jeg fulgte oppgavebeskrivelsen, og "templeten" som var lagt ut. Eneste ekstra jeg evt. gjorde var å fikse størrelsen på inputboksene. JS var et nytt område for min del, hadde derfor ingen erfaring med dette fra før, men synes(tror) jeg løste oppgaven ganske greit. Hadde litt problemer med å "wipe" ut inputene etter et kjøp, men ordnet seg fint til slutt med ( document.getElementById("").value = ""; ). Synes det i alt var veldig gøy å utforske seg frem med. Hadde også et lite problem med Heroku appen, via VSC(siden jeg brukte dette først!) men etter at jeg byttet til intellij funket det fint. Har kommentert ut hva de ulike områdene på scriptet gjør.
+Kort beskrivelse av applikasjon (5–10 setninger): 
+Videreførte litt av kodene fra oblig 1, men siden jeg brukte table inputs på oblig 1
+valgte jeg å bytte over til form denne gangen- -følte dette skapte et enklere samarbeid med hva 
+oppgaven spurte etter.
+Brukte veldig mye av eksemplene som allerede ligger ut, i tillegg 
+løste jeg oppgaven med hjelp av en god del ukesoppgaver.
+Oppgaven var ganske gøy, men krevende, men som er ganske positivt siden 
+føler jeg har lært en god del. Sleit en god del med action på knappen, 
+fikset seg ved at jeg endre linken som var linket til.
