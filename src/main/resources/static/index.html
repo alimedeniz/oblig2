@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <center>
+      <h1>Bestilling av kinobiletter</h1>
+    </center>
+
+    <form class="container">
+      <select id="filmList" required>
+        Velg film her
+        <option disabled selected>--Velg film her--</option>
+        <option>The Notebook(2004)</option>
+        <option>Letter To Juliet(2010)</option>
+        <option>Miracle in Cell No. 7(2019)</option>
+        <option>After(2019)</option>
+      </select>
+
+      <center>
+        <div class="row">
+          <div class="col-md-6"><p>Antall</p></div>
+
+          <div class="col-md-6">
+            <input type="number" min="1" required id="antall" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6"><p>Fornavn</p></div>
+          <div class="col-md-6">
+            <input type="text" required id="fornavn" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6"><p>Etternavn</p></div>
+          <div class="col-md-6">
+            <input type="text" required id="etternavn" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6"><p>Telefonnummer</p></div>
+          <div class="col-md-6"><input type="tel" required id="tlf" /></div>
+        </div>
+
+        <div class="row">
+          <div class="col md-6"><p>Epost</p></div>
+          <div class="col-md-6"><input type="email" required id="epost" /></div>
+        </div>
+        <button class="btn btn-primary" type="submit">Bekreft kjøpet</button>
+        <button class="btn btn-danger" type="reset">
+          Slett alle billetter
+        </button>
+      </center>
+      <div id="melding"></div>
+    </form>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
