@@ -16,6 +16,13 @@ const hentAlle = () => {
   $.get("/billetter", function (data) {
     formaterData(data);
   });
+
+  $("#filmList").val("");
+  $("#antall").val("");
+  $("#fornavn").val("");
+  $("#etternavn").val("");
+  $("#tlf").val("");
+  $("#epost").val("");
 };
 
 const formaterData = (kunder) => {
