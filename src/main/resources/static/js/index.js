@@ -26,6 +26,7 @@ const hentAlle = () => {
 };
 
 const formaterData = (kunder) => {
+  melding.innerHTML = "";
   for (const kunde of kunder) {
     melding.innerHTML += /*html*/ `
       <div> 
